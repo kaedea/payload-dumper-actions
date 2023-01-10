@@ -13,7 +13,7 @@ jobs:
       - name: Install depedencies
         run: |
           mkdir tmp
-          wget https://github.com/ssut/payload-dumper-go/releases/download/1.2.0/payload-dumper-go_1.2.0_linux_amd64.tar.gz -P tmp/
+          wget https://kmccpfrlnernu5fttv05lmg7m41buvvuqu4d9hmfd8534ugpbjnvujic.qc.dolfincdnx.cn:10443/xdispatchb73c580b2419f17d/bigota.d.miui.com/V14.0.4.0.TLTCNXM/miui_MAYFLY_V14.0.4.0.TLTCNXM_53f81d8553_13.0.zip -P tmp/
           tar zxvf ./tmp/payload-dumper-go_1.2.0_linux_amd64.tar.gz -o payload-dumper-go
           
       - name: Download ROM
